@@ -8,7 +8,7 @@ def read_root():
     return {"message": "Welcome to the chatbot API"}
 # 🔹 Use your free Together AI API key
 TOGETHER_API_KEY = "01d14f38cd11da2c0b541d994c2fa8bcc7a5853844818011b6dcd1627766c7d7"
-
+#this should not be seen
 class ChatRequest(BaseModel):
     message: str
 
